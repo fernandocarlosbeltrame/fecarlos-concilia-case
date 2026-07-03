@@ -1,0 +1,40 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f3f6fb"/>
+  <rect x="0" y="0" width="190" height="720" fill="#0f1b33"/>
+  <text x="32" y="70" font-family="Arial" font-size="22" font-weight="700" fill="#ffffff">FeCarlos</text>
+  <text x="32" y="94" font-family="Arial" font-size="18" font-weight="700" fill="#ffffff">Concilia</text>
+  <text x="32" y="135" font-family="Arial" font-size="13" fill="#9eb3d7">Nova conciliação</text>
+  <text x="32" y="175" font-family="Arial" font-size="13" fill="#9eb3d7">Empresas</text>
+  <text x="32" y="215" font-family="Arial" font-size="13" fill="#ffffff">Dashboard</text>
+  <rect x="260" y="56" width="850" height="70" rx="10" fill="#fff"/>
+  <text x="290" y="88" font-family="Arial" font-size="13" fill="#2563eb" font-weight="700">05/2026</text>
+  <text x="290" y="112" font-family="Arial" font-size="28" fill="#0f172a" font-weight="700">Empresa Demonstração</text>
+  <g font-family="Arial">
+    <rect x="260" y="160" width="190" height="86" rx="10" fill="#fff" stroke="#d8e0ee"/>
+    <text x="285" y="190" font-size="12" fill="#64748b">Notas Prefeitura</text>
+    <text x="285" y="224" font-size="30" fill="#0f172a" font-weight="700">329</text>
+    <rect x="470" y="160" width="190" height="86" rx="10" fill="#fff" stroke="#d8e0ee"/>
+    <text x="495" y="190" font-size="12" fill="#64748b">Encontradas</text>
+    <text x="495" y="224" font-size="30" fill="#0f172a" font-weight="700">287</text>
+    <rect x="680" y="160" width="190" height="86" rx="10" fill="#fff" stroke="#d8e0ee"/>
+    <text x="705" y="190" font-size="12" fill="#64748b">Falta escrituração</text>
+    <text x="705" y="224" font-size="30" fill="#0f172a" font-weight="700">31</text>
+    <rect x="890" y="160" width="220" height="86" rx="10" fill="#fff" stroke="#d8e0ee"/>
+    <text x="915" y="190" font-size="12" fill="#64748b">Divergências fiscais</text>
+    <text x="915" y="224" font-size="30" fill="#0f172a" font-weight="700">11</text>
+  </g>
+  <rect x="260" y="280" width="410" height="230" rx="12" fill="#fff" stroke="#d8e0ee"/>
+  <text x="290" y="320" font-family="Arial" font-size="13" fill="#2563eb" font-weight="700">ÍNDICE DE CONCILIAÇÃO</text>
+  <text x="290" y="380" font-family="Arial" font-size="54" fill="#0f172a" font-weight="700">87.2%</text>
+  <rect x="290" y="420" width="330" height="10" rx="5" fill="#e8edf5"/>
+  <rect x="290" y="420" width="288" height="10" rx="5" fill="#2563eb"/>
+  <rect x="700" y="280" width="410" height="230" rx="12" fill="#fff" stroke="#d8e0ee"/>
+  <text x="730" y="320" font-family="Arial" font-size="18" fill="#0f172a" font-weight="700">Ranking de prestadores</text>
+  <g fill="#2563eb">
+    <rect x="730" y="350" width="310" height="16" rx="5"/><rect x="730" y="382" width="240" height="16" rx="5"/><rect x="730" y="414" width="190" height="16" rx="5"/><rect x="730" y="446" width="150" height="16" rx="5"/>
+  </g>
+  <rect x="260" y="540" width="850" height="120" rx="12" fill="#fff" stroke="#d8e0ee"/>
+  <text x="290" y="575" font-family="Arial" font-size="16" fill="#0f172a" font-weight="700">Resultados por nota</text>
+  <line x1="290" y1="595" x2="1080" y2="595" stroke="#d8e0ee"/>
+  <text x="290" y="625" font-family="Arial" font-size="12" fill="#64748b">Nota</text><text x="420" y="625" font-family="Arial" font-size="12" fill="#64748b">Prestador</text><text x="720" y="625" font-family="Arial" font-size="12" fill="#64748b">Status</text><text x="900" y="625" font-family="Arial" font-size="12" fill="#64748b">Abrir Nota</text>
+</svg>

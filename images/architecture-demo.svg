@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="90" y="90" font-family="Arial" font-size="32" fill="#0f172a" font-weight="700">Arquitetura da Solução</text>
+  <g font-family="Arial">
+    <rect x="95" y="170" width="250" height="130" rx="14" fill="#eff6ff" stroke="#2563eb"/>
+    <text x="140" y="230" font-size="22" fill="#0f172a" font-weight="700">React + Vite</text>
+    <text x="135" y="260" font-size="14" fill="#475569">Dashboard e uploads</text>
+    <rect x="475" y="170" width="250" height="130" rx="14" fill="#f0fdf4" stroke="#16a34a"/>
+    <text x="525" y="230" font-size="22" fill="#0f172a" font-weight="700">FastAPI</text>
+    <text x="515" y="260" font-size="14" fill="#475569">Regras fiscais e exportação</text>
+    <rect x="855" y="170" width="250" height="130" rx="14" fill="#fff7ed" stroke="#f97316"/>
+    <text x="905" y="230" font-size="22" fill="#0f172a" font-weight="700">Banco</text>
+    <text x="900" y="260" font-size="14" fill="#475569">PostgreSQL ou SQLite</text>
+    <path d="M350 235 L465 235" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+    <path d="M730 235 L845 235" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+    <defs><marker id="a" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#64748b"/></marker></defs>
+    <rect x="180" y="405" width="840" height="150" rx="16" fill="#ffffff" stroke="#d7dfec"/>
+    <text x="230" y="455" font-size="18" fill="#0f172a" font-weight="700">Fontes importadas</text>
+    <text x="230" y="495" font-size="15" fill="#475569">Portal Nacional / Prefeitura</text>
+    <text x="500" y="495" font-size="15" fill="#475569">Livro Fiscal Omega</text>
+    <text x="760" y="495" font-size="15" fill="#475569">PDF PCC Omega</text>
+  </g>
+</svg>

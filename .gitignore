@@ -1,0 +1,19 @@
+﻿# Arquivos locais e sensíveis
+.env
+*.db
+*.sqlite
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.xml
+*.zip
+*.exe
+node_modules/
+dist/
+build/
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

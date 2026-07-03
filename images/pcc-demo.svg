@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f4f7fb"/>
+  <text x="110" y="95" font-family="Arial" font-size="30" fill="#0f172a" font-weight="700">Gestão de Retenções Federais (PCC)</text>
+  <g font-family="Arial">
+    <rect x="110" y="135" width="180" height="86" rx="12" fill="#fff" stroke="#d7dfec"/><text x="132" y="166" font-size="12" fill="#64748b">Notas com PCC</text><text x="132" y="198" font-size="30" fill="#0f172a" font-weight="700">42</text>
+    <rect x="310" y="135" width="180" height="86" rx="12" fill="#fff" stroke="#d7dfec"/><text x="332" y="166" font-size="12" fill="#64748b">Apuradas</text><text x="332" y="198" font-size="30" fill="#0f172a" font-weight="700">29</text>
+    <rect x="510" y="135" width="220" height="86" rx="12" fill="#fff" stroke="#d7dfec"/><text x="532" y="166" font-size="12" fill="#64748b">Aguardando apuração</text><text x="532" y="198" font-size="30" fill="#0f172a" font-weight="700">13</text>
+    <rect x="750" y="135" width="240" height="86" rx="12" fill="#fff" stroke="#d7dfec"/><text x="772" y="166" font-size="12" fill="#64748b">Total PCC apurado</text><text x="772" y="198" font-size="30" fill="#0f172a" font-weight="700">R$ 9.261,02</text>
+  </g>
+  <rect x="110" y="260" width="880" height="110" rx="12" fill="#fff" stroke="#d7dfec"/>
+  <text x="140" y="300" font-family="Arial" font-size="13" fill="#2563eb" font-weight="700">JORNADA DA RETENÇÃO</text>
+  <text x="140" y="332" font-family="Arial" font-size="22" fill="#0f172a" font-weight="700">Da emissão da NFS-e até a apuração no Omega</text>
+  <text x="140" y="358" font-family="Arial" font-size="14" fill="#64748b">Pendências permanecem abertas até aparecerem em um PDF PCC futuro.</text>
+  <rect x="110" y="405" width="880" height="230" rx="12" fill="#fff" stroke="#d7dfec"/>
+  <text x="140" y="445" font-family="Arial" font-size="16" fill="#0f172a" font-weight="700">Pendências acumuladas</text>
+  <line x1="140" y1="470" x2="950" y2="470" stroke="#d7dfec"/>
+  <g font-family="Arial" font-size="13" fill="#334155">
+    <text x="140" y="505">NFS-e 1001</text><text x="300" y="505">Fornecedor Demo A</text><text x="560" y="505">Aguardando pagamento</text><text x="810" y="505">Herdada</text>
+    <text x="140" y="545">NFS-e 1008</text><text x="300" y="545">Fornecedor Demo B</text><text x="560" y="545">Apurada no PCC</text><text x="810" y="545">Competência atual</text>
+    <text x="140" y="585">NFS-e 1014</text><text x="300" y="585">Fornecedor Demo C</text><text x="560" y="585">Revisão manual</text><text x="810" y="585">Herdada</text>
+  </g>
+</svg>

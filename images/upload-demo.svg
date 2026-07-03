@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f4f7fb"/>
+  <rect x="190" y="70" width="820" height="560" rx="16" fill="#fff" stroke="#d7dfec"/>
+  <text x="240" y="125" font-family="Arial" font-size="13" fill="#2563eb" font-weight="700">NOVO PROCESSAMENTO</text>
+  <text x="240" y="165" font-family="Arial" font-size="30" fill="#0f172a" font-weight="700">Conciliação de NFS-e</text>
+  <text x="240" y="195" font-family="Arial" font-size="15" fill="#64748b">Importe as bases fiscais e valide antes de processar.</text>
+  <g font-family="Arial">
+    <rect x="240" y="250" width="300" height="170" rx="12" fill="#f8fbff" stroke="#2563eb" stroke-dasharray="6 5"/>
+    <text x="330" y="330" font-size="16" fill="#0f172a" font-weight="700">Planilha da Prefeitura</text>
+    <text x="305" y="360" font-size="12" fill="#64748b">recebidas-completa-demo.xlsx</text>
+    <rect x="580" y="250" width="300" height="170" rx="12" fill="#f8fbff" stroke="#2563eb" stroke-dasharray="6 5"/>
+    <text x="690" y="330" font-size="16" fill="#0f172a" font-weight="700">Livro fiscal Omega</text>
+    <text x="660" y="360" font-size="12" fill="#64748b">omega-geral-demo.xlsx</text>
+    <rect x="410" y="455" width="300" height="120" rx="12" fill="#f8fbff" stroke="#2563eb" stroke-dasharray="6 5"/>
+    <text x="500" y="510" font-size="16" fill="#0f172a" font-weight="700">Relatório PCC</text>
+    <text x="485" y="538" font-size="12" fill="#64748b">pcc-demo.pdf</text>
+  </g>
+  <rect x="240" y="590" width="620" height="36" rx="8" fill="#eaf8ef"/>
+  <text x="260" y="613" font-family="Arial" font-size="13" fill="#15803d">Validação concluída: layouts reconhecidos e arquivos prontos.</text>
+</svg>
