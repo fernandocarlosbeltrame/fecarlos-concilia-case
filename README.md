@@ -1,8 +1,12 @@
 ﻿# FeCarlos - Concilia
 
-Case de desenvolvimento de um sistema local para conciliação fiscal de NFS-e, criado para transformar conferências manuais entre relatórios da Prefeitura/Portal Nacional e Livro Fiscal Omega em uma visão gerencial clara, rastreável e exportável.
+## Plataforma Inteligente para Conciliação de NFS-e
 
-> Repositório público de portfólio. Não contém código-fonte, dados fiscais reais, bancos, instaladores, planilhas, PDFs, XMLs ou regras internas detalhadas.
+O **FeCarlos - Concilia** é uma aplicação desenvolvida para automatizar o processo de conciliação de Notas Fiscais de Serviço entre diferentes fontes de dados, reduzindo atividades manuais e aumentando a confiabilidade das análises fiscais.
+
+O projeto integra múltiplos layouts de importação, realiza comparações automáticas e gera indicadores gerenciais por meio de dashboards e relatórios.
+
+> Este repositório apresenta apenas a estrutura do projeto para fins de portfólio. Dados internos, regras de negócio específicas e integrações proprietárias foram omitidos.
 
 ![Dashboard demonstrativo](images/dashboard-demo.svg)
 
@@ -96,3 +100,4 @@ O sistema permite que o usuário deixe de trabalhar apenas com planilhas soltas 
 ## Segurança e Privacidade
 
 Este repositório é apenas um case público. O código-fonte real, dados fiscais, regras sensíveis, arquivos de clientes e instaladores não fazem parte desta publicação.
+
