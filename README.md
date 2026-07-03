@@ -8,7 +8,14 @@ O projeto integra múltiplos layouts de importação, realiza comparações auto
 
 > Este repositório apresenta apenas a estrutura do projeto para fins de portfólio. Dados internos, regras de negócio específicas e integrações proprietárias foram omitidos.
 
-![Dashboard demonstrativo](images/dashboard-demo.svg)
+## Status
+
+- Projeto Finalizado
+- Versão 1.0
+- Case de Portfólio
+- Documentação Pública
+
+![Banner FeCarlos - Concilia](images/banner.svg)
 
 ## Objetivos
 
@@ -111,6 +118,10 @@ Mais detalhes em [docs/arquitetura.md](docs/arquitetura.md).
 
 As telas abaixo são demonstrativas e utilizam dados fictícios.
 
+### Fluxo em GIF
+
+![Fluxo demonstrativo](images/fluxo-demo.gif)
+
 | Login | Nova Conciliação |
 | --- | --- |
 | ![Login](images/login-demo.svg) | ![Nova Conciliação](images/upload-demo.svg) |
@@ -148,3 +159,4 @@ Veja também: [docs/privacidade.md](docs/privacidade.md).
 **Fernando Carlos Beltrame**
 
 Fiscal & Tributário | Desenvolvimento de Sistemas | Automação | Python | SQL | Power BI
+
