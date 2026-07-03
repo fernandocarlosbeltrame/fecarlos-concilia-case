@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f4f7fb"/>
+  <text x="100" y="90" font-family="Arial" font-size="32" fill="#0f172a" font-weight="700">Histórico de Processamentos</text>
+  <text x="100" y="122" font-family="Arial" font-size="15" fill="#64748b">Acompanhe conciliações por empresa e competência.</text>
+  <rect x="100" y="165" width="1000" height="415" rx="14" fill="#fff" stroke="#d7dfec"/>
+  <g font-family="Arial">
+    <text x="135" y="210" font-size="15" fill="#0f172a" font-weight="700">Evolução da conciliação</text>
+    <rect x="135" y="245" width="680" height="12" rx="6" fill="#e8edf5"/><rect x="135" y="245" width="595" height="12" rx="6" fill="#2563eb"/>
+    <text x="845" y="260" font-size="26" fill="#0f172a" font-weight="700">87%</text>
+    <line x1="135" y1="310" x2="1060" y2="310" stroke="#d7dfec"/>
+    <text x="135" y="350" font-size="13" fill="#334155">Mai/2026</text><text x="320" y="350" font-size="13" fill="#334155">Empresa Demonstração</text><text x="710" y="350" font-size="13" fill="#334155">287 encontradas</text><text x="920" y="350" font-size="13" fill="#2563eb">Abrir</text>
+    <text x="135" y="405" font-size="13" fill="#334155">Jun/2026</text><text x="320" y="405" font-size="13" fill="#334155">Empresa Demonstração</text><text x="710" y="405" font-size="13" fill="#334155">301 encontradas</text><text x="920" y="405" font-size="13" fill="#2563eb">Abrir</text>
+    <text x="135" y="460" font-size="13" fill="#334155">Jul/2026</text><text x="320" y="460" font-size="13" fill="#334155">Filial Demonstração</text><text x="710" y="460" font-size="13" fill="#334155">276 encontradas</text><text x="920" y="460" font-size="13" fill="#2563eb">Abrir</text>
+  </g>
+</svg>

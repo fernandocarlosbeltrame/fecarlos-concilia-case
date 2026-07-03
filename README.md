@@ -10,94 +10,141 @@ O projeto integra múltiplos layouts de importação, realiza comparações auto
 
 ![Dashboard demonstrativo](images/dashboard-demo.svg)
 
-## Visão Geral
+## Objetivos
 
-O **FeCarlos - Concilia** foi desenvolvido para apoiar a conferência de NFS-e em rotinas fiscais. O sistema centraliza a importação de relatórios, organiza pendências, separa divergências por tipo e gera relatórios gerenciais para análise e compartilhamento.
-
-A solução foi pensada para uso local ou interno, com foco em produtividade, rastreabilidade e clareza operacional.
-
-## Problema Resolvido
-
-Antes do sistema, a conferência dependia de planilhas manuais, filtros, chaves concatenadas e análise nota a nota. Isso gerava risco de erro, perda de tempo e dificuldade para explicar diferenças entre bases fiscais.
-
-O projeto resolve esse fluxo com:
-
-- painel gerencial por competência;
-- separação entre notas encontradas, ausentes e divergentes;
-- análise fiscal individualizada;
-- acompanhamento de retenções federais;
-- histórico por empresa;
-- exportações em Excel e PDF.
+- Automatizar conciliações fiscais.
+- Padronizar diferentes layouts de entrada.
+- Identificar divergências automaticamente.
+- Gerar indicadores gerenciais.
+- Exportar relatórios em Excel e PDF.
+- Reduzir retrabalho em conferências manuais.
+- Apoiar a tomada de decisão fiscal e tributária.
 
 ## Principais Funcionalidades
 
-- Cadastro de empresas, matriz e filiais.
-- Processamento por competência.
-- Importação de relatórios da Prefeitura/Portal Nacional.
-- Importação de relatórios do Livro Fiscal Omega.
-- Dashboard de conciliação das notas.
-- Tela de falta de escrituração.
-- Análise do ISS retido.
-- Gestão de retenções federais PCC.
+- Conciliação automática de documentos.
+- Dashboard executivo por competência.
+- Análise de ISS.
+- Análise tributária.
+- Gestão de retenções federais (PCC).
+- Histórico de processamentos.
+- Exportação para Excel.
+- Exportação para PDF.
+- Cadastro de empresas.
+- Manual integrado.
 - Controle de notas canceladas e substituídas.
-- Logs de processamento.
-- Exportação gerencial em Excel e PDF.
-- Versão instalável para Windows.
+- Logs de validação e processamento.
 
-## Telas Demonstrativas
-
-| Dashboard | Importação de bases |
-| --- | --- |
-| ![Dashboard](images/dashboard-demo.svg) | ![Upload](images/upload-demo.svg) |
-
-| Gestão PCC | Arquitetura |
-| --- | --- |
-| ![Gestão PCC](images/pcc-demo.svg) | ![Arquitetura](images/architecture-demo.svg) |
-
-## Tecnologias Utilizadas
-
-- Python
-- FastAPI
-- Pandas
-- SQLAlchemy
-- React
-- Vite
-- PostgreSQL
-- SQLite para versão desktop
-- Docker
-- PyInstaller
-- Inno Setup
-
-## Arquitetura em Alto Nível
+## Fluxo do Sistema
 
 ```text
-Relatórios fiscais
-       │
-       ▼
-Normalização e validação
-       │
-       ▼
-Motor de conciliação
-       │
-       ▼
-Dashboard, histórico e exportações
+Cadastro da Empresa
+        │
+        ▼
+Importação dos Arquivos
+        │
+        ▼
+Validação
+        │
+        ▼
+Processamento
+        │
+        ▼
+Dashboard
+        │
+        ▼
+Análises
+        │
+        ▼
+Exportação
+```
+
+## Arquitetura
+
+```text
+Portal Nacional / Prefeitura / Omega
+                 │
+                 ▼
+        Importação de Dados
+                 │
+                 ▼
+        Motor de Conciliação
+                 │
+       ┌─────────┼─────────┐
+       ▼         ▼         ▼
+  Dashboard   Análises  Relatórios
+                 │
+                 ▼
+             Excel • PDF
 ```
 
 Mais detalhes em [docs/arquitetura.md](docs/arquitetura.md).
 
-## Resultado Esperado
+## Tecnologias Utilizadas
 
-O sistema permite que o usuário deixe de trabalhar apenas com planilhas soltas e passe a ter uma visão estruturada das pendências fiscais, com indicadores, rastreabilidade e relatórios prontos para conferência.
+- Python
+- React
+- JavaScript
+- FastAPI
+- SQLite
+- PostgreSQL
+- Docker
+- Pandas
+- OpenPyXL
+- ReportLab
+- SQLAlchemy
+- Vite
+- PyInstaller
+- Inno Setup
+
+## Benefícios
+
+- Redução de processos manuais.
+- Aumento da confiabilidade das análises.
+- Padronização dos critérios de conferência.
+- Melhor rastreabilidade das divergências.
+- Apoio à tomada de decisão.
+- Histórico organizado por empresa e competência.
+- Relatórios prontos para compartilhamento.
+
+## Imagens do Sistema
+
+As telas abaixo são demonstrativas e utilizam dados fictícios.
+
+| Login | Nova Conciliação |
+| --- | --- |
+| ![Login](images/login-demo.svg) | ![Nova Conciliação](images/upload-demo.svg) |
+
+| Dashboard | Análise de ISS |
+| --- | --- |
+| ![Dashboard](images/dashboard-demo.svg) | ![Análise de ISS](images/iss-demo.svg) |
+
+| Gestão PCC | Histórico |
+| --- | --- |
+| ![Gestão PCC](images/pcc-demo.svg) | ![Histórico](images/historico-demo.svg) |
+
+| Relatórios | Arquitetura |
+| --- | --- |
+| ![Relatórios](images/relatorios-demo.svg) | ![Arquitetura](images/architecture-demo.svg) |
 
 ## Roadmap
 
-- Melhorar telas de auditoria.
-- Criar base fictícia para demonstração pública.
-- Evoluir permissões por usuário.
-- Criar instalador com atualização automática.
-- Adicionar testes automatizados dos leitores de arquivos.
+- API de integração.
+- Integração com Power BI.
+- Classificação inteligente de divergências.
+- Alertas automáticos.
+- Workflow de tratativa e aprovação.
+- Perfis de acesso por usuário.
+- Atualização automática da versão instalável.
 
 ## Segurança e Privacidade
 
 Este repositório é apenas um case público. O código-fonte real, dados fiscais, regras sensíveis, arquivos de clientes e instaladores não fazem parte desta publicação.
 
+Veja também: [docs/privacidade.md](docs/privacidade.md).
+
+## Autor
+
+**Fernando Carlos Beltrame**
+
+Fiscal & Tributário | Desenvolvimento de Sistemas | Automação | Python | SQL | Power BI

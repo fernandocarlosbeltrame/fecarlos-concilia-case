@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f3f6fb"/>
+  <text x="100" y="85" font-family="Arial" font-size="32" fill="#0f172a" font-weight="700">Análise do ISS Retido</text>
+  <text x="100" y="118" font-family="Arial" font-size="15" fill="#64748b">Comparação gerencial entre Prefeitura e Livro Fiscal Omega</text>
+  <g font-family="Arial">
+    <rect x="100" y="155" width="230" height="95" rx="12" fill="#fff" stroke="#d7dfec"/><text x="125" y="188" font-size="12" fill="#64748b">ISS Prefeitura</text><text x="125" y="225" font-size="30" fill="#0f172a" font-weight="700">R$ 9.438,73</text>
+    <rect x="355" y="155" width="230" height="95" rx="12" fill="#fff" stroke="#d7dfec"/><text x="380" y="188" font-size="12" fill="#64748b">ISS Omega</text><text x="380" y="225" font-size="30" fill="#0f172a" font-weight="700">R$ 9.449,29</text>
+    <rect x="610" y="155" width="230" height="95" rx="12" fill="#fff" stroke="#d7dfec"/><text x="635" y="188" font-size="12" fill="#64748b">Diferença</text><text x="635" y="225" font-size="30" fill="#0f172a" font-weight="700">-R$ 10,56</text>
+    <rect x="865" y="155" width="230" height="95" rx="12" fill="#fff" stroke="#d7dfec"/><text x="890" y="188" font-size="12" fill="#64748b">Divergências</text><text x="890" y="225" font-size="30" fill="#0f172a" font-weight="700">1</text>
+  </g>
+  <rect x="100" y="295" width="995" height="310" rx="14" fill="#fff" stroke="#d7dfec"/>
+  <text x="130" y="335" font-family="Arial" font-size="16" fill="#0f172a" font-weight="700">Notas com divergência de ISS</text>
+  <line x1="130" y1="365" x2="1065" y2="365" stroke="#d7dfec"/>
+  <g font-family="Arial" font-size="13" fill="#334155">
+    <text x="130" y="400">Nota</text><text x="260" y="400">Prestador</text><text x="560" y="400">ISS Prefeitura</text><text x="720" y="400">ISS Omega</text><text x="870" y="400">Status</text>
+    <rect x="120" y="420" width="955" height="46" fill="#fff7ed"/>
+    <text x="130" y="450">14471</text><text x="260" y="450">Fornecedor Demonstração LTDA</text><text x="560" y="450">R$ 0,00</text><text x="720" y="450">R$ 10,56</text><text x="870" y="450" fill="#b45309">ISS divergente</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <rect x="0" y="0" width="540" height="720" fill="#10213f"/>
+  <text x="95" y="150" font-family="Arial" font-size="15" font-weight="700" fill="#3b82f6">FECARLOS - CONCILIA</text>
+  <text x="95" y="235" font-family="Arial" font-size="58" font-weight="700" fill="#ffffff">Conciliação</text>
+  <text x="95" y="300" font-family="Arial" font-size="58" font-weight="700" fill="#ffffff">fiscal,</text>
+  <text x="95" y="365" font-family="Arial" font-size="58" font-weight="700" fill="#ffffff">sem ruído.</text>
+  <text x="95" y="445" font-family="Arial" font-size="18" fill="#b8c7e6">Transforme bases fiscais em indicadores</text>
+  <text x="95" y="475" font-family="Arial" font-size="18" fill="#b8c7e6">gerenciais claros e rastreáveis.</text>
+  <rect x="705" y="170" width="330" height="360" rx="18" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="760" y="245" font-family="Arial" font-size="30" font-weight="700" fill="#0f172a">Bem-vindo</text>
+  <text x="760" y="278" font-family="Arial" font-size="15" fill="#64748b">Acesse o ambiente de conciliação.</text>
+  <text x="760" y="335" font-family="Arial" font-size="13" fill="#0f172a">E-mail</text>
+  <rect x="760" y="350" width="220" height="42" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="778" y="376" font-family="Arial" font-size="13" fill="#64748b">usuario@demo.local</text>
+  <text x="760" y="425" font-family="Arial" font-size="13" fill="#0f172a">Senha</text>
+  <rect x="760" y="440" width="220" height="42" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="778" y="466" font-family="Arial" font-size="13" fill="#64748b">••••••••</text>
+  <rect x="760" y="505" width="220" height="48" rx="10" fill="#2563eb"/>
+  <text x="840" y="535" font-family="Arial" font-size="16" font-weight="700" fill="#ffffff">Entrar</text>
+</svg>
